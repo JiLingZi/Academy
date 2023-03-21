@@ -108,5 +108,24 @@
         		</div>
 		</div>
 	</div>
+	<audio src="mainmusic.mp3" type="audio/mp3"></audio>
+	<button onclick="document.querySelector('audio').play()">播放</button>
+	<button onclick="document.querySelector('audio').pause()">暂停</button>
+	<style>
+  		audio {
+    			width: 100%;
+    			height: 50px;
+    			margin-bottom: 20px;
+  			}
+  		button {
+    			font-size: 16px;
+    			padding: 5px 10px;
+    			border: none;
+    			background-color: #007bff;
+    			color: #fff;
+    			cursor: pointer;
+    			border-radius: 5px;
+  			}
+	</style>
 </body>
 </html>
