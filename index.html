@@ -33,58 +33,80 @@
 		div.card p {
 			line-height: 1.5;
 		}
+		.card {
+			display: flex;
+			justify-content: flex-start;
+			margin-bottom: 20px;
+		}
+
+		.card-content {
+			flex-grow: 1;
+		}
+
+		.card-image {
+			margin-left: 20px; 
+			width: 150px; 
+			height: 150px;
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<h1>江苏科技大学王泽龙老师课题组介绍</h1>
 		<div class="card">
-			<h2>导师简介</h2>
-			<p>姓名：王泽龙<br>
-			职称：讲师<br>
-			研究方向：XXX</p>
+    			<h2>导师简介</h2>
+    			<div class="card-content">
+        			<p>姓名：王泽龙<br>
+           			职称：讲师<br>
+           			研究方向：XXX</p>
+        			<div class="card-image">
+            				<img src="path/to/image.jpg" alt="导师照片">
+        			</div>
+    			</div>
 		</div>
 		<div class="card">
-			<h2>硕士生1</h2>
-			<p>姓名：王可鑫<br>
-			指导老师：王泽龙<br>
-			研究方向：XXX</p>
+    			<h2>硕士生1</h2>
+    			<div class="card-content">
+        			<p>姓名：王可鑫<br>
+           			年级：研一<br>
+           			研究方向：XXX</p>
+        			<div class="card-image">
+            				<img src="path/to/image.jpg" alt="研究生照片">
+        			</div>
+    			</div>
 		</div>
 		<div class="card">
-			<h2>硕士生2</h2>
-			<p>姓名：吴宇煊<br>
-			指导老师：王泽龙<br>
-			研究方向：XXX</p>
+    			<h2>硕士生2</h2>
+    			<div class="card-content">
+        			<p>姓名：吴宇煊<br>
+           			年级：研0<br>
+           			研究方向：XXX</p>
+        			<div class="card-image">
+            				<img src="path/to/image.jpg" alt="研究生照片">
+        			</div>
+    			</div>
 		</div>
 		<div class="card">
-			<h2>研究助理</h2>
-			<p>姓名：XXX<br>
-			职称：XXX<br>
-			研究方向：XXX</p>
+    			<h2>本科生1</h2>
+    			<div class="card-content">
+        			<p>姓名：范嘉宇<br>
+           			年级：大二<br>
+           			研究方向：XXX</p>
+        			<div class="card-image">
+            				<img src="path/to/image.jpg" alt="本科生照片">
+        			</div>
+    			</div>
 		</div>
 		<div class="card">
-			<h2>实验室助理</h2>
-			<p>姓名：XXX<br>
-			职称：XXX<br>
-			研究方向：XXX</p>
-		</div>
-		<div class="card">
-			<h2>实习生</h2>
-			<p>姓名：XXX<br>
-			专业：XXX<br>
-			研究方向：XXX</p>
-		</div>
-		<div class="card">
-			<h2>访问学者</h2>
-			<p>姓名：XXX<br>
-			来访单位：XXX<br>
-			研究方向：XXX</p>
-		</div>
-		<div class="card">
-			<h2>合作伙伴</h2>
-			<p>姓名：XXX<br>
-			来访单位：XXX<br>
-			研究方向：XXX</p>
+    			<h2>本科生1</h2>
+    			<div class="card-content">
+        			<p>姓名：陈开炎<br>
+           			年级：大二<br>
+           			研究方向：XXX</p>
+        			<div class="card-image">
+            				<img src="path/to/image.jpg" alt="本科生照片">
+        			</div>
+    			</div>
 		</div>
 	</div>
 </body>
